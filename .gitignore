@@ -1,0 +1,25 @@
+# Build outputs
+build/*.epub
+build/*.mobi
+build/*.pdf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Node modules (if using any build tools)
+node_modules/
