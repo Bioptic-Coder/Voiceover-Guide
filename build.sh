@@ -6,19 +6,19 @@
 set -e
 
 # Create build directory if it doesn't exist
-mkdir -p build
+mkdir -p site/static
 
-# Change to book directory
-cd book
+# Change to docs directory
+cd site/content/docs
 
 # Build EPUB
 echo "Building EPUB..."
 pandoc \
-  --metadata-file=metadata.yaml \
+  --metadata-file=../../metadata.yaml \
   --toc \
   --toc-depth=2 \
   --split-level=1 \
-  -o ../build/The_Complete_macOS_VoiceOver_Guide.epub \
+  -o ../../static/The_Complete_macOS_VoiceOver_Guide.epub \
   00-frontmatter.md \
   01-getting-started.md \
   02-essential-navigation.md \

@@ -1,0 +1,27 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'The Complete macOS VoiceOver Guide'
+theme = 'hugo-book'
+
+[params]
+  # BookTheme = 'auto' # 'light' or 'dark' or 'auto'
+  BookTheme = 'auto'
+  
+  # Set the path to the logo (in static/)
+  # BookLogo = 'logo.png'
+  
+  # Enable search
+  BookSearch = true
+  
+  # Helper to generate "Edit this page" links
+  BookRepo = 'https://github.com/ericglasser/voiceover-guide-repo'
+  BookEditPath = 'edit/main/site/content'
+
+  # (Optional) Configure the date format
+  BookDateFormat = 'January 2, 2006'
+
+  # (Optional) Book comments
+  # BookComments = true
+
+[menu]
+  # You can define menu items here, but hugo-book builds a menu from content tree by default.
