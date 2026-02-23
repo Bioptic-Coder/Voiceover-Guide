@@ -129,6 +129,8 @@ fi
 # Build Hugo Site
 echo "Building Hugo site..."
 cd ../../
+echo "Note: The hugo-book theme requires Hugo v0.146.0 or newer. If this build fails,"
+echo "ensure your Cloudflare environment variable HUGO_VERSION is set to at least 0.146.0"
 hugo --minify
 echo "✓ Hugo site built in site/public/"
 
