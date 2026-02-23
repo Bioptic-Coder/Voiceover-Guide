@@ -1,0 +1,10 @@
+name = "voiceover-guide"
+pages_build_output_dir = "site/public"
+
+[build]
+command = "bash ./build.sh"
+
+[env.production]
+# Make sure Hugo 0.122+ or equivalent is used in Cloudflare's environment
+HUGO_VERSION = "extended_0.124.1"
+NODE_VERSION = "20"
